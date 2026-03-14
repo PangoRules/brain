@@ -1,0 +1,15 @@
+{
+  "immediateReplace": true,
+  "suggester": true,
+  "historyPriority": true,
+  "historyLimit": 100,
+  "history": [
+    ":armenia:",
+    ":arrow_double_down:",
+    ":signal_strength:",
+    ":control_knobs:",
+    ":eyeglasses:",
+    ":eye:",
+    ":capital_abcd:"
+  ]
+}

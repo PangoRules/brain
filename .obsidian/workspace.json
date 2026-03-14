@@ -1,0 +1,298 @@
+{
+  "main": {
+    "id": "0d9cda4f51719f8d",
+    "type": "split",
+    "children": [
+      {
+        "id": "4ea1c164e87f62c7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c14b7ec6ffd4d75e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Areas/WebCrawling/Python/Crawl_Depth_Python.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Crawl_Depth_Python"
+            }
+          },
+          {
+            "id": "f9c2b8941b430f29",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Areas/WebCrawling/Python/Crawl_Depth_Python.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Crawl_Depth_Python"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "293f3f38e5433874",
+    "type": "split",
+    "children": [
+      {
+        "id": "0233ffd738351618",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0fb99bd1601ebdfd",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "ac3be90d710a9b38",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "popleft",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "e2b4ed448d5ce9bb",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 286.5
+  },
+  "right": {
+    "id": "1e90e3b2a7360dc1",
+    "type": "split",
+    "children": [
+      {
+        "id": "23714fbcf1b38f3b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4a843389bdfe6dc8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Welcome.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Welcome"
+            }
+          },
+          {
+            "id": "081a5c89cf8554ca",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Welcome.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Welcome"
+            }
+          },
+          {
+            "id": "f7bba871d0f2e80e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "92f35debfde6cbe9",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "324a6ae1ab2985a3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Welcome.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Welcome"
+            }
+          },
+          {
+            "id": "2413fbab5385ef98",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "743111a1c83221f5",
+            "type": "leaf",
+            "state": {
+              "type": "BC-matrix",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "BC-matrix"
+            }
+          },
+          {
+            "id": "84877030a8d17f48",
+            "type": "leaf",
+            "state": {
+              "type": "BC-tree",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "BC-tree"
+            }
+          },
+          {
+            "id": "c6949dbedcd76216",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {},
+              "icon": "ag-node-list",
+              "title": "Juggl nodes"
+            }
+          },
+          {
+            "id": "ffccf37aeaf43028",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {},
+              "icon": "ag-style",
+              "title": "Juggl style"
+            }
+          }
+        ],
+        "currentTab": 7
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-kanban:Create new board": false,
+      "juggl:Juggl global graph": false,
+      "periodic-notes:Open today": false
+    }
+  },
+  "active": "c14b7ec6ffd4d75e",
+  "lastOpenFiles": [
+    "Notes/Areas/WebCrawling/Python/HTML_Parsing_BeautifulSoup.md",
+    "Notes/Areas/WebCrawling/Python/Crawl_Depth_Python.md",
+    "Notes/Areas/WebCrawling/Python/HTTP_with_Requests_HTTPX.md",
+    "Notes/Resources/CS_Fundamentals/BFS_DFS.md",
+    "Notes/Areas/WebCrawling/Python/URL_Normalization_Python.md",
+    "Notes/Areas/WebCrawling/Concepts/URL_Normalization.md",
+    "Notes/Areas/WebCrawling/Python/Extracting_Links_Python.md",
+    "Notes/Areas/WebCrawling/WebCrawling.md",
+    "Notes/Areas/WebCrawling/Concepts/Duplicate_Avoidance.md",
+    "Notes/Areas/WebCrawling/Concepts/URL_Frontier.md",
+    "Notes/Areas/WebCrawling/Python/Robots_txt_Python.md",
+    "Notes/Areas/WebCrawling/Python/Duplicate_Avoidance_Python.md",
+    "Notes/Areas/WebCrawling/Python/URL_Frontier_Python.md",
+    "Notes/Areas/WebCrawling/Python/HTTP_with_Requests_HTTPX.md.tmp.27177.1772999009759",
+    "Notes/Areas/WebCrawling/Concepts/HTTP_Requests.md",
+    "Notes/Projects/python/mini-search-engine/00-MiniSearchEngine.md",
+    "Notes/Projects/python/mini-search-engine/04-Roadmap.md",
+    "Notes/Projects/python/mini-search-engine/03-DatabaseModels.md",
+    "Notes/Projects/python/mini-search-engine/02-RecommendedStructure.md",
+    "Notes/Projects/python/mini-search-engine/01-Features.md",
+    "Notes/Areas/WebCrawling/Concepts/Crawl_Depth.md",
+    "Notes/Areas/WebCrawling/Concepts/Robots_txt.md",
+    "Notes/Resources/CS_Fundamentals/Big_O_Notation.md",
+    "Notes/Areas/WebCrawling/Python/URL_Frontier_Python.md.tmp.27177.1772998137851",
+    "Notes/Areas/WebCrawling/Concepts/Duplicate_Avoidance.md.tmp.27177.1772998136055",
+    "Notes/Resources/CS_Fundamentals/Big_O_Notation.md.tmp.27177.1772998131533",
+    "Notes/Areas/WebCrawling/Python/URL_Frontier_Python.md.tmp.27177.1772997741911",
+    "Notes/Areas/WebCrawling/Concepts/URL_Frontier.md.tmp.27177.1772997740490",
+    "Notes/Resources/CS_Fundamentals/BFS_DFS.md.tmp.27177.1772997735932",
+    "Notes/Resources/CS_Fundamentals",
+    "Notes/Areas/WebCrawling/Concepts/Extracting_Links.md",
+    "Notes/Areas/WebCrawling/Concepts/HTML_Parsing.md",
+    "Notes/Areas/WebCrawling/WebCrawling.md.tmp.27177.1772996112994",
+    "Notes/Areas/NLP/Concepts/TF_IDF.md.tmp.27177.1772996110889",
+    "Notes/Areas/NLP/Concepts/Corpus.md",
+    "Notes/Areas/NLP/NLP.md",
+    "Assets/Pasted image 20260307210935.png",
+    "Pasted image 20260307210935.png",
+    "Untitled.canvas"
+  ]
+}
