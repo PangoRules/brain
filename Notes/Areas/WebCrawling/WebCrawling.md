@@ -12,6 +12,7 @@ Web crawling is the automated process of systematically browsing the web to coll
 
 ## Concepts (Theory)
 
+### Crawling
 | Topic | Note |
 |---|---|
 | HTTP Requests | [[Concepts/HTTP_Requests]] |
@@ -23,10 +24,19 @@ Web crawling is the automated process of systematically browsing the web to coll
 | robots.txt | [[Concepts/Robots_txt]] |
 | Crawl Depth | [[Concepts/Crawl_Depth]] |
 
+### Indexing (Phase 4)
+| Topic | Note |
+|---|---|
+| Text Extraction | [[Concepts/Text_Extraction]] |
+| Document Metadata | [[Concepts/Document_Metadata]] |
+| Content Deduplication | [[Concepts/Content_Deduplication]] |
+| Indexing Pipeline | [[Concepts/Indexing_Pipeline]] |
+
 ---
 
 ## Python Implementations
 
+### Crawling
 | Topic | Note |
 |---|---|
 | HTTP with `requests` / `httpx` | [[Python/HTTP_with_Requests_HTTPX]] |
@@ -37,6 +47,14 @@ Web crawling is the automated process of systematically browsing the web to coll
 | Duplicate Avoidance | [[Python/Duplicate_Avoidance_Python]] |
 | robots.txt with `urllib.robotparser` | [[Python/Robots_txt_Python]] |
 | BFS with Depth Limiting | [[Python/Crawl_Depth_Python]] |
+
+### Indexing (Phase 4)
+| Topic | Note |
+|---|---|
+| Text Extraction | [[Python/Text_Extraction_Python]] |
+| Document Metadata | [[Python/Document_Metadata_Python]] |
+| Content Deduplication | [[Python/Content_Deduplication_Python]] |
+| Indexing Pipeline (full) | [[Python/Indexing_Pipeline_Python]] |
 
 ---
 
@@ -52,6 +70,8 @@ Web crawling is the automated process of systematically browsing the web to coll
 | `hashlib` | MD5/SHA-256 content fingerprinting |
 | `heapq` | Priority queue for importance-driven crawling |
 | `time` | Enforcing crawl delays |
+| `sqlite3` | Persistent storage for pages and postings |
+| `collections.Counter` | Term frequency counting |
 
 ---
 
@@ -59,4 +79,4 @@ Web crawling is the automated process of systematically browsing the web to coll
 
 | Project | How crawling is used |
 |---------|---------------------|
-| [[Notes/Projects/python/mini-search-engine/00-MiniSearchEngine\|Mini Search Engine]] | Phase 3 — collect documents from the web for indexing and ranking |
+| [[Notes/Projects/python/mini-search-engine/00-MiniSearchEngine\|Mini Search Engine]] | Phase 3 — crawl the web; Phase 4 — index crawled pages into SQLite |
