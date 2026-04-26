@@ -20,6 +20,7 @@ Natural Language Processing is the field of AI concerned with enabling computers
 | Stemming | [[Concepts/Stemming]] |
 | TF-IDF | [[Concepts/TF_IDF]] |
 | Inverted Index | [[Concepts/Inverted_Index]] |
+| Postings | [[Concepts/Postings]] |
 | Text Normalization | [[Concepts/Normalizing_Text]] |
 
 ---
@@ -33,6 +34,7 @@ Natural Language Processing is the field of AI concerned with enabling computers
 | Stemming | [[Python/Stemming_Words_NLTK]] |
 | TF-IDF with scikit-learn | [[Python/TF_IDF_Sklearn]] |
 | Inverted Index | [[Python/Inverted_Index_Python]] |
+| SQLite Postings | [[Python/SQLite_Postings_Python]] |
 | Text Normalization | [[Python/Normalizing_Textual_Data_in_Python]] |
 
 ---

@@ -4,38 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "4ea1c164e87f62c7",
+        "id": "971c2ee64b71d892",
         "type": "tabs",
         "children": [
           {
-            "id": "c14b7ec6ffd4d75e",
+            "id": "4dc020ea87d4d2cc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Areas/WebCrawling/Python/Crawl_Depth_Python.md",
+                "file": "Notes/Ideas/CookHomie.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Crawl_Depth_Python"
+              "title": "CookHomie"
             }
           },
           {
-            "id": "f9c2b8941b430f29",
+            "id": "e218abcb2e5204a2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Areas/WebCrawling/Python/Crawl_Depth_Python.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Crawl_Depth_Python"
+              "title": "README"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -88,8 +89,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -253,44 +253,44 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c14b7ec6ffd4d75e",
+  "active": "e218abcb2e5204a2",
   "lastOpenFiles": [
-    "Notes/Areas/WebCrawling/Python/HTML_Parsing_BeautifulSoup.md",
+    "Notes/Projects/CookHomie/04-Roadmap.md",
+    "Notes/Projects/CookHomie/04-Roadmap.md.tmp.30622.1777171122622",
+    "Notes/Projects/CookHomie/03-RepoStructure.md",
+    "Notes/Projects/CookHomie/03-RepoStructure.md.tmp.30622.1777171112487",
+    "Notes/Projects/CookHomie/02-DataModel.md",
+    "Notes/Projects/CookHomie/02-DataModel.md.tmp.30622.1777171090735",
+    "Notes/Projects/CookHomie/01-Architecture.md",
+    "Notes/Projects/CookHomie/01-Architecture.md.tmp.30622.1777171079837",
+    "Notes/Projects/CookHomie/00-CookHomie.md",
+    "Notes/Projects/CookHomie/00-CookHomie.md.tmp.30622.1777171063553",
+    "Notes/Ideas/CookHomie.md.tmp.30622.1777171049477",
+    "Notes/Ideas/HomieOS.md.tmp.30622.1777171039492",
+    "Notes/Ideas/CookHomie.md.tmp.30622.1777171038668",
+    "Notes/Projects/CookHomie",
+    "Notes/Ideas/CookHomie.md",
+    "Daily/2026-04-23.md",
+    "Notes/Areas/NLP/NLP.md",
+    "Notes/Ideas/HomieOS.md",
+    "Daily/2026-02-26.md",
+    "Notes/Areas/NLP/Concepts/Postings.md",
+    "Notes/Areas/WebCrawling/Concepts/Content_Deduplication.md",
+    "Notes/Areas/WebCrawling/WebCrawling.md",
+    "Notes/Areas/WebCrawling/Concepts/Document_Metadata.md",
+    "Notes/Areas/WebCrawling/Python/Text_Extraction_Python.md",
+    "Notes/Areas/WebCrawling/Concepts/Indexing_Pipeline.md",
+    "Notes/Areas/WebCrawling/Concepts/Text_Extraction.md",
+    "Notes/Areas/NLP/NLP.md.tmp.19993.1773461208683",
+    "Notes/Areas/WebCrawling/Python/Indexing_Pipeline_Python.md",
+    "Notes/Areas/NLP/Python/SQLite_Postings_Python.md",
     "Notes/Areas/WebCrawling/Python/Crawl_Depth_Python.md",
+    "Notes/Areas/WebCrawling/Python/Content_Deduplication_Python.md",
+    "Notes/Areas/WebCrawling/Python/HTML_Parsing_BeautifulSoup.md",
     "Notes/Areas/WebCrawling/Python/HTTP_with_Requests_HTTPX.md",
     "Notes/Resources/CS_Fundamentals/BFS_DFS.md",
     "Notes/Areas/WebCrawling/Python/URL_Normalization_Python.md",
     "Notes/Areas/WebCrawling/Concepts/URL_Normalization.md",
-    "Notes/Areas/WebCrawling/Python/Extracting_Links_Python.md",
-    "Notes/Areas/WebCrawling/WebCrawling.md",
-    "Notes/Areas/WebCrawling/Concepts/Duplicate_Avoidance.md",
-    "Notes/Areas/WebCrawling/Concepts/URL_Frontier.md",
-    "Notes/Areas/WebCrawling/Python/Robots_txt_Python.md",
-    "Notes/Areas/WebCrawling/Python/Duplicate_Avoidance_Python.md",
-    "Notes/Areas/WebCrawling/Python/URL_Frontier_Python.md",
-    "Notes/Areas/WebCrawling/Python/HTTP_with_Requests_HTTPX.md.tmp.27177.1772999009759",
-    "Notes/Areas/WebCrawling/Concepts/HTTP_Requests.md",
-    "Notes/Projects/python/mini-search-engine/00-MiniSearchEngine.md",
-    "Notes/Projects/python/mini-search-engine/04-Roadmap.md",
-    "Notes/Projects/python/mini-search-engine/03-DatabaseModels.md",
-    "Notes/Projects/python/mini-search-engine/02-RecommendedStructure.md",
-    "Notes/Projects/python/mini-search-engine/01-Features.md",
-    "Notes/Areas/WebCrawling/Concepts/Crawl_Depth.md",
-    "Notes/Areas/WebCrawling/Concepts/Robots_txt.md",
-    "Notes/Resources/CS_Fundamentals/Big_O_Notation.md",
-    "Notes/Areas/WebCrawling/Python/URL_Frontier_Python.md.tmp.27177.1772998137851",
-    "Notes/Areas/WebCrawling/Concepts/Duplicate_Avoidance.md.tmp.27177.1772998136055",
-    "Notes/Resources/CS_Fundamentals/Big_O_Notation.md.tmp.27177.1772998131533",
-    "Notes/Areas/WebCrawling/Python/URL_Frontier_Python.md.tmp.27177.1772997741911",
-    "Notes/Areas/WebCrawling/Concepts/URL_Frontier.md.tmp.27177.1772997740490",
-    "Notes/Resources/CS_Fundamentals/BFS_DFS.md.tmp.27177.1772997735932",
-    "Notes/Resources/CS_Fundamentals",
-    "Notes/Areas/WebCrawling/Concepts/Extracting_Links.md",
-    "Notes/Areas/WebCrawling/Concepts/HTML_Parsing.md",
-    "Notes/Areas/WebCrawling/WebCrawling.md.tmp.27177.1772996112994",
-    "Notes/Areas/NLP/Concepts/TF_IDF.md.tmp.27177.1772996110889",
-    "Notes/Areas/NLP/Concepts/Corpus.md",
-    "Notes/Areas/NLP/NLP.md",
     "Assets/Pasted image 20260307210935.png",
     "Pasted image 20260307210935.png",
     "Untitled.canvas"

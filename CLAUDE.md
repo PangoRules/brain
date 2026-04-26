@@ -17,11 +17,12 @@ A personal knowledge operating system built on Obsidian. Not just a notebook —
 ├── CLAUDE.md            # This file
 ├── Daily/               # Operational journal (YYYY-MM-DD.md files)
 ├── Inbox/               # Fast capture zone (dump first, organize later)
-├── Archives/            # Completed/inactive notes
+├── Archvies/            # Completed/inactive notes (note: folder name has typo on disk)
+├── Assets/              # Images, attachments
 ├── Templates/           # 5 structured templates (project, daily, idea, resource, book)
 ├── Notes/
 │   ├── Projects/        # Active goal-driven work (e.g., python/mini-search-engine/)
-│   ├── Areas/           # Long-term responsibilities (NLP, bash, Learning)
+│   ├── Areas/           # Long-term responsibilities (NLP, WebCrawling, bash, Learning)
 │   ├── Ideas/           # Raw thoughts (raw → validated → active → archived)
 │   ├── Resources/       # Reference material (books, docs, snippets)
 │   └── People/          # Relationship intelligence
@@ -37,13 +38,15 @@ A personal knowledge operating system built on Obsidian. Not just a notebook —
   - Files: features, structure, DB models, roadmap (00–04 numbered files)
 
 ### Areas
-- **Notes/Areas/NLP/** — NLP theory (Tokenization, TF-IDF, Stemming, Inverted Index) + Python implementations
-- **Notes/Areas/bash/exercises/** — Shell scripting practice (beginner → advanced)
+- **Notes/Areas/NLP/** — NLP theory (Tokenization, TF-IDF, Stemming, Inverted Index, Stop Words, Corpus, Normalizing Text) + Python implementations
+- **Notes/Areas/WebCrawling/** — Web crawling concepts (HTTP Requests, HTML Parsing, URL Frontier, Extracting Links, Crawl Depth, Duplicate Avoidance, Robots.txt, URL Normalization) + Python implementations
+- **Notes/Areas/bash/exercises/** — Shell scripting practice (beginner → intermediate → interview-style → mini-projects)
 
 ### Resources
 - **Notes/Resources/Books/The_Linux_Command_Line/** — 36-chapter breakdown
-- **Notes/Resources/Python/** — Reference snippets (dicts, dataclasses, regex, file I/O, etc.)
+- **Notes/Resources/Python/** — Reference snippets (dicts, dataclasses, regex, file I/O, Counter, string methods)
 - **Notes/Resources/NVIM/** — Neovim workflow guides (Docker, .NET, Vue)
+- **Notes/Resources/CS_Fundamentals/** — CS theory (Big O Notation, BFS/DFS)
 
 ### Daily Notes
 - Located in `Daily/`, format: `YYYY-MM-DD.md`
@@ -129,6 +132,22 @@ sort file.ctime desc
 
 ---
 
+## Git Workflow for Notes
+
+This vault is a git repo. When helping add new notes:
+
+1. **Check current branch** with `git branch`
+2. **If on `main`**, create and checkout a new branch before creating any files:
+   - Branch naming: `notes/<area-or-topic>` (e.g., `notes/nlp-word2vec`, `notes/bash-arrays`, `notes/webcrawling-sitemaps`)
+   - Use kebab-case, keep it short and descriptive
+3. **Create the note(s)** on that branch
+4. **Commit** the new files with a clear message (no `Co-Authored-By` tag)
+5. **Do not push** unless the user asks
+
+If already on a feature branch (not `main`), just commit there — no new branch needed.
+
+---
+
 ## Claude Permissions (.claude/settings.local.json)
 
 WebFetch is allowed for these domains:
@@ -144,5 +163,6 @@ WebFetch is allowed for these domains:
 - Place files in the correct PARA folder based on content type
 - Use `[[wikilinks]]` for internal references
 - Keep new notes minimal — no metadata bloat
-- When building on existing content, check `Notes/Areas/NLP/` and `Notes/Projects/` for context
-- The mini-search-engine project connects NLP theory to Python implementation
+- When building on existing content, check `Notes/Areas/NLP/`, `Notes/Areas/WebCrawling/`, and `Notes/Projects/` for context
+- The mini-search-engine project connects NLP theory + WebCrawling concepts to Python implementation
+- NLP and WebCrawling areas both follow the same pattern: `Concepts/` for theory, `Python/` for implementation
