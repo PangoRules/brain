@@ -25,12 +25,12 @@ Web crawling is the automated process of systematically browsing the web to coll
 | Crawl Depth | [[Concepts/Crawl_Depth]] |
 
 ### Indexing (Phase 4)
-| Topic | Note |
-|---|---|
-| Text Extraction | [[Concepts/Text_Extraction]] |
-| Document Metadata | [[Concepts/Document_Metadata]] |
+| Topic                 | Note                               |
+| --------------------- | ---------------------------------- |
+| Text Extraction       | [[Concepts/Text_Extraction]]       |
+| Document Metadata     | [[Concepts/Document_Metadata]]     |
 | Content Deduplication | [[Concepts/Content_Deduplication]] |
-| Indexing Pipeline | [[Concepts/Indexing_Pipeline]] |
+| Indexing Pipeline     | [[Concepts/Indexing_Pipeline]]     |
 
 ---
 
